@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:id="@+id/videoUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http://server.siddhran.in:8200/api/vid?id=3&amp;q=O"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/manifest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manifest Video"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/m3u8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M3U8"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/mp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MP4"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/mp4encripted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MP4 Encripted"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>
